@@ -1,0 +1,107 @@
+body {
+  font-family: 'Audiowide', sans-serif;
+  background-image: url('img/homebg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: transparent;
+  color: orange;
+}
+
+.header .left img {
+  margin-right: 10px;
+}
+
+.header .mid .navbar {
+  list-style: none;
+  display: inline-block;
+}
+
+.header .mid .navbar li {
+  display: inline-block;
+  font-size: 15px;
+}
+
+.header .mid .navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 32px;
+}
+
+.header .mid .navbar li a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+.btn {
+  margin: 0px 9px;
+  background-color: black;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: "Audiowide", sans-serif;
+}
+
+.btn:hover {
+  background-color: rgb(75, 4, 4);
+}
+
+.container {
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+
+.container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 1.2em;
+}
+
+.services, .testimonials {
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+.services h2, .testimonials h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.service-item, .testimonial-item {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.service-item img {
+    border-radius: 30px;
+    box-shadow: black;
+}
+.image{
+    width: 50%;
+}
+.text{
+    width: 50%;
+    text-shadow: black;
+}
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
